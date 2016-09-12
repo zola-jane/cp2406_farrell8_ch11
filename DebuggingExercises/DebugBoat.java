@@ -11,7 +11,7 @@ public abstract class DebugBoat
    // requirements of Debug Exercise 3.
    public boolean equals(DebugBoat otherBoat)
    {
-      boolean result;
+       boolean result;
       if((passengers == otherBoat.passengers) && (power.equals(otherBoat.power)))
          result = true;
       else
@@ -20,7 +20,7 @@ public abstract class DebugBoat
    }
    public String toString()
    {
-      return("This " + boatType + "boat carries " + passengers +
+       return("This " + boatType + "boat carries " + passengers +
         " and is powered by " + power);
    }
    public abstract void setPower();
